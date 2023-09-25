@@ -67,12 +67,12 @@
     <!-- Permission used to open settings -->
     <permission
         android:name="com.stevesoltys.seedvault.OPEN_SETTINGS"
-        android:protectionLevel="system|signature" />
+        android:protectionLevel="signature|privileged" />
 
     <!-- Permission used to open backup gui -->
     <permission
         android:name="com.stevesoltys.seedvault.RESTORE_BACKUP"
-        android:protectionLevel="system|signature" />
+        android:protectionLevel="signature|privileged" />
 
     <application
         android:name=".App"
